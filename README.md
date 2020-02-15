@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ```
 2. Write your data to the config.py
 3. Change the pass to the temp file in the add_ads.py
-'''
+```
 10, 24 with open('/home/snowman/temp_file.txt','r')
 37 run(['rm', '/home/snowman/temp_files.txt'])
-'''
+```
